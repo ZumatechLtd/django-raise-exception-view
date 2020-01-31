@@ -4,7 +4,7 @@
 
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from views import raise_exception
+from .views import raise_exception
 from raiseexception import DeliberateException
 
 
